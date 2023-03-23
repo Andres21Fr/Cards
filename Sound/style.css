@@ -1,0 +1,45 @@
+
+.title{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card{
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    
+}
+
+.card .card1{
+    border-style: solid;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .81);
+    opacity: 5;
+} 
+.card .card1:hover{
+    transition: all 0.5s linear;
+    opacity: 1;
+    
+}
+.card .card2{
+    border-style: solid;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .81);
+}
+.card .card1__img{
+    width: 100px;
+    height: 100px;
+}
+
+.card .card2__img{
+    width: 100px;
+    height: 100px;
+}
+.card .card3__img{
+    width: 100px;
+    height: 100px;
+}
